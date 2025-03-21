@@ -183,4 +183,6 @@ namespace CRUDSederhana
             {
                 try
                 {
-                    
+                    if (txtNIM.Text == "" || txtNAMA.Text == "" || txtEMAIL.Text == "" || txtTELEPON.Text == "")
+                    {
+                      
