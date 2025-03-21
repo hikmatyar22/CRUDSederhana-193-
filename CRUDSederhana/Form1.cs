@@ -12,4 +12,8 @@ using System.Windows.Forms;
 namespace CRUDSederhana
 {
     public partial class Form1 : Form
-    
+    {
+        // Connection String untuk menghubungkan ke database SQL Server
+        private string connectionString = "Data Source=DESKTOP-R38C602\\ABIQQ;" +
+                                         "Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
+       
