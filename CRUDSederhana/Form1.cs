@@ -231,4 +231,6 @@ namespace CRUDSederhana
         {
             if (e.RowIndex >= 0)
             {
-  
+                DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];
+
+              
