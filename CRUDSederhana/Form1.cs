@@ -203,5 +203,7 @@ namespace CRUDSederhana
                         if (rowsAffected > 0)
                         {
                             MessageBox.Show("Data berhasil diperbarui!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                         
-             
+                            LoadData();
+                            ClearForm();
+                        }
+              
