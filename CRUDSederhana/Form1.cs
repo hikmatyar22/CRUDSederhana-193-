@@ -233,4 +233,6 @@ namespace CRUDSederhana
             {
                 DataGridViewRow row = dgvMahasiswa.Rows[e.RowIndex];
 
+                //Coba gunakan indeks jika "NIM" tidak ditemukan
+                txtNIM.Text = row.Cells[0].Value.ToString();
               
