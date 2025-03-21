@@ -168,4 +168,10 @@ namespace CRUDSederhana
                         {
                             MessageBox.Show("Error: " + ex.Message, "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
-  
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Pilih data yang akan dihapus!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
