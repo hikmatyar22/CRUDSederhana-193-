@@ -131,4 +131,6 @@ namespace CRUDSederhana
             }
         }
 
-     
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+        
