@@ -206,4 +206,8 @@ namespace CRUDSederhana
                             LoadData();
                             ClearForm();
                         }
-              
+                        else
+                        {
+                            MessageBox.Show("Data tidak ditemukan atau gagal diperbarui!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    
