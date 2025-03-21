@@ -210,4 +210,8 @@ namespace CRUDSederhana
                         {
                             MessageBox.Show("Data tidak ditemukan atau gagal diperbarui!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
+                    }
+                }
+                catch (Exception ex)
+                {
                     
