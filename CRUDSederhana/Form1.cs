@@ -113,4 +113,6 @@ namespace CRUDSederhana
                         cmd.Parameters.AddWithValue("@Nama", txtNAMA.Text.Trim());
                         cmd.Parameters.AddWithValue("@Email", txtEMAIL.Text.Trim());
                         cmd.Parameters.AddWithValue("@Telepon", txtTELEPON.Text.Trim());
-          
+                        cmd.Parameters.AddWithValue("@Alamat", txtALAMAT.Text.Trim());
+
+                       
