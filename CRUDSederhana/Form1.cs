@@ -55,5 +55,8 @@ namespace CRUDSederhana
                     dgvMahasiswa.AutoGenerateColumns = true;
                     dgvMahasiswa.DataSource = dt;
 
-                    ClearForm(); 
-            
+                    ClearForm(); // Auto Clear setelah LoadData
+                }
+                catch (Exception ex)
+                {
+               
