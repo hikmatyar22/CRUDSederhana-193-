@@ -179,4 +179,6 @@ namespace CRUDSederhana
 
         private void btnUbah_Click(object sender, EventArgs e)
         {
-       
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+         
