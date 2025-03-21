@@ -116,5 +116,6 @@ namespace CRUDSederhana
                         cmd.Parameters.AddWithValue("@Alamat", txtALAMAT.Text.Trim());
 
                         int rowsAffected = cmd.ExecuteNonQuery();
-
-
+                        if (rowsAffected > 0)
+                        {
+                         
