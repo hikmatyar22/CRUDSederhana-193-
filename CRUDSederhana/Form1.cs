@@ -16,4 +16,6 @@ namespace CRUDSederhana
         // Connection String untuk menghubungkan ke database SQL Server
         private string connectionString = "Data Source=DESKTOP-R38C602\\ABIQQ;" +
                                          "Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
-       
+        public Form1()
+        {
+        
