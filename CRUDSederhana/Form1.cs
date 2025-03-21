@@ -191,4 +191,6 @@ namespace CRUDSederhana
                     conn.Open();
                     string query = "UPDATE Mahasiswa SET Nama = @Nama, Email = @Email, Telepon = @Telepon, Alamat = @Alamat WHERE NIM = @NIM";
 
-                    
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        
