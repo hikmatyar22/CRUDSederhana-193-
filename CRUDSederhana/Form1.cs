@@ -223,4 +223,8 @@ namespace CRUDSederhana
         {
             LoadData();
 
-            
+            // Debugging: Cek jumlah kolom dan baris
+            MessageBox.Show($"Jumlah Kolom: {dgvMahasiswa.ColumnCount}\nJumlah Baris: {dgvMahasiswa.RowCount}",
+                            "Debugging DataGridView", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+       
