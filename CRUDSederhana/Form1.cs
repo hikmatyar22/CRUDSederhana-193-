@@ -14,7 +14,7 @@ namespace CRUDSederhana
     public partial class Form1 : Form
     {
         // Connection String untuk menghubungkan ke database SQL Server
-        private string connectionString = "Data Source=DESKTOP-R38C602\\ABIQQ;" +
+        private string connectionString = "DESKTOP-R38C602\\ABIQQ;" +
                                          "Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
         public Form1()
         {
@@ -30,4 +30,18 @@ namespace CRUDSederhana
         // Fungsi untuk mengosongkan semua input pada TextBox
         private void ClearForm()
         {
-           
+            txtNIM.Clear();
+            txtNAMA.Clear();
+            txtEMAIL.Clear();
+            txtTELEPON.Clear();
+            txtALAMAT.Clear();
+
+            //Fokus kembali ke NIM agar user siap memasukkan data baru
+            txtNIM.Focus();
+        }
+
+        private void LoadData()
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+             
