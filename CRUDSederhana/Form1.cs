@@ -18,4 +18,7 @@ namespace CRUDSederhana
                                          "Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
         public Form1()
         {
+            InitializeComponent();
+        }
+
         
