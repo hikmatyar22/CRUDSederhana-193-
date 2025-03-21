@@ -237,4 +237,5 @@ namespace CRUDSederhana
                 txtNIM.Text = row.Cells[0].Value.ToString();
                 txtNAMA.Text = row.Cells[1].Value?.ToString();
                 txtEMAIL.Text = row.Cells[2].Value?.ToString();
+                txtTELEPON.Text = row.Cells[3].Value?.ToString();
 
