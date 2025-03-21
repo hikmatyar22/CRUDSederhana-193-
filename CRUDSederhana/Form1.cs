@@ -139,4 +139,6 @@ namespace CRUDSederhana
 
                 if (confirm == DialogResult.Yes)
                 {
-                   
+                    using (SqlConnection conn = new SqlConnection(connectionString))
+                    {
+                
