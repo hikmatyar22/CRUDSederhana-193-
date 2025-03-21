@@ -193,4 +193,8 @@ namespace CRUDSederhana
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        
+                        cmd.Parameters.AddWithValue("@NIM", txtNIM.Text.Trim());
+                        cmd.Parameters.AddWithValue("@Nama", txtNAMA.Text.Trim());
+                      
+
+                       
