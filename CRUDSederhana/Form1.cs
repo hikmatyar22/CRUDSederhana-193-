@@ -239,4 +239,10 @@ namespace CRUDSederhana
                 txtEMAIL.Text = row.Cells[2].Value?.ToString();
                 txtTELEPON.Text = row.Cells[3].Value?.ToString();
                 txtALAMAT.Text = row.Cells[4].Value?.ToString();
-      
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+     
