@@ -199,4 +199,5 @@ namespace CRUDSederhana
                         cmd.Parameters.AddWithValue("@Telepon", txtTELEPON.Text.Trim());
                         cmd.Parameters.AddWithValue("@Alamat", txtALAMAT.Text.Trim());
 
-                        
+                        int rowsAffected = cmd.ExecuteNonQuery();
+                      
